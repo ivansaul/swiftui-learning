@@ -22,7 +22,7 @@ struct CounterView: View {
         List {
             Text("\(counter)")
                 .font(.largeTitle)
-                .fontWeight(/*@START_MENU_TOKEN@*/ .bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
 
             Stepper("Counter", value: $counter)
         }

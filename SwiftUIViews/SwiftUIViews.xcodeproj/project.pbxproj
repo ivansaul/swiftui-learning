@@ -29,6 +29,12 @@
 		C7E2E4B52C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4B42C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift */; };
 		C7E2E4B72C1049A700D1E2CB /* SheetSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4B62C1049A700D1E2CB /* SheetSwiftUIView.swift */; };
 		C7E2E4B92C104F5500D1E2CB /* StateVsBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4B82C104F5500D1E2CB /* StateVsBinding.swift */; };
+		C7FBE2862C10CBBE0027A4E0 /* ObservedObjectVsStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE2852C10CBBE0027A4E0 /* ObservedObjectVsStateObject.swift */; };
+		C7FBE2882C10DB0F0027A4E0 /* EnvironmentObjectSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE2872C10DB0F0027A4E0 /* EnvironmentObjectSwiftUI.swift */; };
+		C7FBE28A2C10E04E0027A4E0 /* AppStorageSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE2892C10E04E0027A4E0 /* AppStorageSwiftUI.swift */; };
+		C7FBE28C2C10FECE0027A4E0 /* SceneStorageSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE28B2C10FECE0027A4E0 /* SceneStorageSwiftUI.swift */; };
+		C7FBE28E2C1103440027A4E0 /* SwipeActionsRefreshableSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE28D2C1103440027A4E0 /* SwipeActionsRefreshableSwiftUI.swift */; };
+		C7FBE2902C110A650027A4E0 /* CustomModifierSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBE28F2C110A650027A4E0 /* CustomModifierSwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +81,12 @@
 		C7E2E4B42C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewLinkSwiftUIView.swift; sourceTree = "<group>"; };
 		C7E2E4B62C1049A700D1E2CB /* SheetSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSwiftUIView.swift; sourceTree = "<group>"; };
 		C7E2E4B82C104F5500D1E2CB /* StateVsBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVsBinding.swift; sourceTree = "<group>"; };
+		C7FBE2852C10CBBE0027A4E0 /* ObservedObjectVsStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectVsStateObject.swift; sourceTree = "<group>"; };
+		C7FBE2872C10DB0F0027A4E0 /* EnvironmentObjectSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectSwiftUI.swift; sourceTree = "<group>"; };
+		C7FBE2892C10E04E0027A4E0 /* AppStorageSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageSwiftUI.swift; sourceTree = "<group>"; };
+		C7FBE28B2C10FECE0027A4E0 /* SceneStorageSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageSwiftUI.swift; sourceTree = "<group>"; };
+		C7FBE28D2C1103440027A4E0 /* SwipeActionsRefreshableSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsRefreshableSwiftUI.swift; sourceTree = "<group>"; };
+		C7FBE28F2C110A650027A4E0 /* CustomModifierSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierSwiftUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +157,12 @@
 				C7E2E4B42C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift */,
 				C7E2E4B62C1049A700D1E2CB /* SheetSwiftUIView.swift */,
 				C7E2E4B82C104F5500D1E2CB /* StateVsBinding.swift */,
+				C7FBE2852C10CBBE0027A4E0 /* ObservedObjectVsStateObject.swift */,
+				C7FBE2872C10DB0F0027A4E0 /* EnvironmentObjectSwiftUI.swift */,
+				C7FBE2892C10E04E0027A4E0 /* AppStorageSwiftUI.swift */,
+				C7FBE28B2C10FECE0027A4E0 /* SceneStorageSwiftUI.swift */,
+				C7FBE28D2C1103440027A4E0 /* SwipeActionsRefreshableSwiftUI.swift */,
+				C7FBE28F2C110A650027A4E0 /* CustomModifierSwiftUI.swift */,
 			);
 			path = SwiftUIViews;
 			sourceTree = "<group>";
@@ -304,8 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FBE2862C10CBBE0027A4E0 /* ObservedObjectVsStateObject.swift in Sources */,
 				C7E2E4B72C1049A700D1E2CB /* SheetSwiftUIView.swift in Sources */,
 				C7E2E4AF2C102AFD00D1E2CB /* LazyGridSwiftUIView.swift in Sources */,
+				C7FBE28A2C10E04E0027A4E0 /* AppStorageSwiftUI.swift in Sources */,
 				C7DEB8BD2C0FBC86008D1471 /* ImageSwiftUIView.swift in Sources */,
 				C7E2E4B52C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift in Sources */,
 				C7DEB8C32C0FE5FA008D1471 /* ButtonSwiftUIView.swift in Sources */,
@@ -320,6 +340,10 @@
 				C7DEB8902C0FB81A008D1471 /* SwiftUIViewsApp.swift in Sources */,
 				C7E2E4B92C104F5500D1E2CB /* StateVsBinding.swift in Sources */,
 				C7DEB8BF2C0FC7BC008D1471 /* LabelSwiftUIView.swift in Sources */,
+				C7FBE28E2C1103440027A4E0 /* SwipeActionsRefreshableSwiftUI.swift in Sources */,
+				C7FBE2902C110A650027A4E0 /* CustomModifierSwiftUI.swift in Sources */,
+				C7FBE2882C10DB0F0027A4E0 /* EnvironmentObjectSwiftUI.swift in Sources */,
+				C7FBE28C2C10FECE0027A4E0 /* SceneStorageSwiftUI.swift in Sources */,
 				C7DEB8C12C0FCBB1008D1471 /* TextSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

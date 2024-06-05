@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUIViewsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // ContentView()
+            // AppStorageSwiftUI()
+            // SceneStorageSwiftUI()
+            SwipeActionsRefreshableSwiftUI()
         }
     }
 }
