@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "rust-logo-blk.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
