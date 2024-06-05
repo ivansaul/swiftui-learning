@@ -22,6 +22,13 @@
 		C7DEB8C32C0FE5FA008D1471 /* ButtonSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DEB8C22C0FE5FA008D1471 /* ButtonSwiftUIView.swift */; };
 		C7DEB8C52C0FF66B008D1471 /* TextFieldSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DEB8C42C0FF66B008D1471 /* TextFieldSwiftUIView.swift */; };
 		C7E2E4AB2C100BEF00D1E2CB /* ToggleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4AA2C100BEF00D1E2CB /* ToggleSwiftUIView.swift */; };
+		C7E2E4AD2C10137300D1E2CB /* StepperSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4AC2C10137300D1E2CB /* StepperSwiftUIView.swift */; };
+		C7E2E4AF2C102AFD00D1E2CB /* LazyGridSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4AE2C102AFD00D1E2CB /* LazyGridSwiftUIView.swift */; };
+		C7E2E4B12C10306A00D1E2CB /* FormSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4B02C10306A00D1E2CB /* FormSwiftUIView.swift */; };
+		C7E2E4B32C103ACB00D1E2CB /* ListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4B22C103ACA00D1E2CB /* ListSwiftUIView.swift */; };
+		C7E2E4B52C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4B42C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift */; };
+		C7E2E4B72C1049A700D1E2CB /* SheetSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4B62C1049A700D1E2CB /* SheetSwiftUIView.swift */; };
+		C7E2E4B92C104F5500D1E2CB /* StateVsBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2E4B82C104F5500D1E2CB /* StateVsBinding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +68,13 @@
 		C7DEB8C22C0FE5FA008D1471 /* ButtonSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSwiftUIView.swift; sourceTree = "<group>"; };
 		C7DEB8C42C0FF66B008D1471 /* TextFieldSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSwiftUIView.swift; sourceTree = "<group>"; };
 		C7E2E4AA2C100BEF00D1E2CB /* ToggleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwiftUIView.swift; sourceTree = "<group>"; };
+		C7E2E4AC2C10137300D1E2CB /* StepperSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperSwiftUIView.swift; sourceTree = "<group>"; };
+		C7E2E4AE2C102AFD00D1E2CB /* LazyGridSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridSwiftUIView.swift; sourceTree = "<group>"; };
+		C7E2E4B02C10306A00D1E2CB /* FormSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSwiftUIView.swift; sourceTree = "<group>"; };
+		C7E2E4B22C103ACA00D1E2CB /* ListSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwiftUIView.swift; sourceTree = "<group>"; };
+		C7E2E4B42C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewLinkSwiftUIView.swift; sourceTree = "<group>"; };
+		C7E2E4B62C1049A700D1E2CB /* SheetSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSwiftUIView.swift; sourceTree = "<group>"; };
+		C7E2E4B82C104F5500D1E2CB /* StateVsBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVsBinding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +138,13 @@
 				C7DEB8C42C0FF66B008D1471 /* TextFieldSwiftUIView.swift */,
 				C7D414732C1007720026F6F5 /* TextEditorSwiftUIView.swift */,
 				C7E2E4AA2C100BEF00D1E2CB /* ToggleSwiftUIView.swift */,
+				C7E2E4AC2C10137300D1E2CB /* StepperSwiftUIView.swift */,
+				C7E2E4AE2C102AFD00D1E2CB /* LazyGridSwiftUIView.swift */,
+				C7E2E4B02C10306A00D1E2CB /* FormSwiftUIView.swift */,
+				C7E2E4B22C103ACA00D1E2CB /* ListSwiftUIView.swift */,
+				C7E2E4B42C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift */,
+				C7E2E4B62C1049A700D1E2CB /* SheetSwiftUIView.swift */,
+				C7E2E4B82C104F5500D1E2CB /* StateVsBinding.swift */,
 			);
 			path = SwiftUIViews;
 			sourceTree = "<group>";
@@ -283,14 +304,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E2E4B72C1049A700D1E2CB /* SheetSwiftUIView.swift in Sources */,
+				C7E2E4AF2C102AFD00D1E2CB /* LazyGridSwiftUIView.swift in Sources */,
 				C7DEB8BD2C0FBC86008D1471 /* ImageSwiftUIView.swift in Sources */,
+				C7E2E4B52C10420200D1E2CB /* NavigationViewLinkSwiftUIView.swift in Sources */,
 				C7DEB8C32C0FE5FA008D1471 /* ButtonSwiftUIView.swift in Sources */,
 				C7DEB8BB2C0FB926008D1471 /* IconsSwiftUIView.swift in Sources */,
+				C7E2E4B32C103ACB00D1E2CB /* ListSwiftUIView.swift in Sources */,
 				C7DEB8922C0FB81A008D1471 /* ContentView.swift in Sources */,
 				C7E2E4AB2C100BEF00D1E2CB /* ToggleSwiftUIView.swift in Sources */,
+				C7E2E4B12C10306A00D1E2CB /* FormSwiftUIView.swift in Sources */,
 				C7DEB8C52C0FF66B008D1471 /* TextFieldSwiftUIView.swift in Sources */,
+				C7E2E4AD2C10137300D1E2CB /* StepperSwiftUIView.swift in Sources */,
 				C7D414742C1007720026F6F5 /* TextEditorSwiftUIView.swift in Sources */,
 				C7DEB8902C0FB81A008D1471 /* SwiftUIViewsApp.swift in Sources */,
+				C7E2E4B92C104F5500D1E2CB /* StateVsBinding.swift in Sources */,
 				C7DEB8BF2C0FC7BC008D1471 /* LabelSwiftUIView.swift in Sources */,
 				C7DEB8C12C0FCBB1008D1471 /* TextSwiftUIView.swift in Sources */,
 			);
